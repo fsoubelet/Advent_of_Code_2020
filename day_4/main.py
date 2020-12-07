@@ -134,7 +134,7 @@ Continue to treat cid as optional. In your batch file, how many passports are va
 """
 import shlex
 from pathlib import Path
-from typing import List, Set, Tuple
+from typing import List, Set
 
 INPUT_FILE: Path = Path(__file__).parent / "input.txt"
 PASSPORT_LINES: List[str] = [e.replace("\n", " ") for e in INPUT_FILE.read_text().split("\n\n")]
