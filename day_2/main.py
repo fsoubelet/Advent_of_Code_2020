@@ -51,9 +51,9 @@ Given the same example list from above:
 
 How many passwords are valid according to the new interpretation of the policies?
 """
+import shlex
 from pathlib import Path
 from typing import List, Tuple
-import shlex
 
 INPUT_FILE: Path = Path(__file__).parent / "input.txt"
 INPUT_LINES: List[str] = INPUT_FILE.read_text().split("\n")
