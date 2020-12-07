@@ -52,9 +52,9 @@ Multiplying them together produces the answer, 241861950.
 In your expense report, what is the product of the three entries that sum to 2020?
 
 """
+from itertools import combinations_with_replacement
 from pathlib import Path
 from typing import List
-from itertools import combinations_with_replacement
 
 INPUT_FILE: Path = Path(__file__).parent / "input.txt"
 INPUTS: List[int] = [int(num) for num in INPUT_FILE.read_text().split()]
