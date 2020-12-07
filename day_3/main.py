@@ -86,7 +86,6 @@ together, these produce the answer 336.
 What do you get if you multiply together the number of trees encountered on each of the listed
 slopes?
 """
-import shlex
 from functools import reduce
 from operator import mul
 from pathlib import Path
