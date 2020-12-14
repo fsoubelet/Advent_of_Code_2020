@@ -173,7 +173,6 @@ to count the arrangements.
 What is the total number of distinct ways you can arrange the adapters to connect the charging
 outlet to your device?
 """
-from itertools import combinations
 from pathlib import Path
 from typing import Dict, List
 
