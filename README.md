@@ -1,0 +1,2 @@
+A `Python 3.8+`, standard library only implementation of the [Advent of Code](https://adventofcode.com/) challenges, for 2020.
+Focus is not on performance but readibility and elegance of the solutions.
